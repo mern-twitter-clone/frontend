@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import Tweet from './Components/Tweet/Tweet';
+import Layout from './Components/Layout/Layout';
+import Grid from './Components/Layout/Layout';
 
 function App() {
   return (
     <div className="App">
-     <Tweet></Tweet>
+     <Layout></Layout>
     </div>
   );
 }
