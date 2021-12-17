@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Tweet from './Components/Tweet/Tweet';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+     <Tweet></Tweet>
     </div>
   );
 }
