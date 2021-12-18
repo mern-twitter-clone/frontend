@@ -6,10 +6,7 @@ function Sidebar() {
   return (
     <TextField
     placeholder="Search"
-    sx={{
-        color: 'success.main',
-        width: '10%'
-      }}
+   fullWidth
     variant="outlined"
     InputProps={{
       endAdornment: (
