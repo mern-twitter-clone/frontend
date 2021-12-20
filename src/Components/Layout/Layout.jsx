@@ -11,11 +11,11 @@ function Layout() {
       justifyContent="center"
 
     >
-      <Grid item xs={10} sm={3} alignItems="center">
+      <Grid item xs={10} sm={3} alignItems="center" >
         <Sidebar></Sidebar>
       </Grid>
 
-      <Grid container item xs={11} sm={6} direction="row" spacing={5}>
+      <Grid container item xs={11} sm={6} direction="row" spacing={5} >
         <Grid item xs={12} sm={12}>
           <Tweet></Tweet>
         </Grid>
